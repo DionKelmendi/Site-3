@@ -1,0 +1,418 @@
+*{
+
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+
+nav ul{
+
+	display: flex;
+	list-style-type: none;
+	height: 70px;
+	width: 61%;
+	margin: auto;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 30px;
+
+
+}
+
+nav a{
+	text-decoration: none;
+	color: #404040;
+	font-size: 17px;
+}
+
+.future{
+
+	background-image: url("futureBG.jpg");
+	height: 762px;
+	color: white;
+}
+
+.future .container{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	height: 97%;
+	width: 54%;
+	margin: auto;
+	gap: 5px;
+	z-index: 2;
+}
+
+.future .item{
+
+	width: 600px;
+
+}
+
+.future h1{
+	font-size: 100px;
+	line-height: 100px;
+}
+
+.future h3{
+	font-size: 24px;
+	letter-spacing: 1px;
+	line-height: 35px;
+	font-weight: normal;
+}
+
+.Hrobot{
+
+	height: 610px;
+}
+
+.Hrobot .container{
+
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 58%;
+	height: 100%;
+	align-items: flex-start;
+	justify-content: start;
+	gap:  25px;
+}
+
+.Hrobot .item{
+	width: 500px;
+}
+
+.Hrobot h3{
+	padding-top: 55px;
+	line-height: 11px;
+	font-size: 19px;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+.Hrobot h1{
+	background: none;
+	font-size: 60px;
+	color: purple;
+	letter-spacing: 1px;
+}
+
+.Hrobot p{
+	display: block;
+	width: 510px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	overflow-wrap: break-word;
+}
+
+.Hrobot button{
+
+	background: none;
+	border-style: solid;
+	border-color: skyblue;
+	color: purple;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 15px 30px;
+}
+
+.Hrobot button:hover{
+
+	background: skyblue;
+	cursor: pointer;
+}
+
+.images{
+
+	background: rgb(115,37,183);
+	background: linear-gradient(141deg, rgba(115,37,183,1) 0%, rgba(132,44,192,1) 25%, rgba(99,63,195,1) 55%, rgba(62,180,228,1) 100%);
+	height: 1010px;
+	color: white;
+}
+
+.images .container{
+
+	display: flex;
+	height: 86%;
+	justify-content: center;
+	align-items: flex-end;
+	width: auto;
+	margin: auto;
+	gap: 30px;
+}
+
+.images img{
+
+	object-fit: cover;
+}
+
+.images .container2{
+	
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	height: 70%;
+	gap: 20px;
+}
+
+.images .container2 img{
+
+	margin-right: 30px;
+}
+
+.images p{
+
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 35px;
+	width: 600px;
+	padding: 25px;
+}
+
+.tech{
+
+	height: 710px;
+}
+
+.tech .container{
+
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	width: 58%;
+	margin: auto;
+	gap: 25px;
+}
+
+.tech .container2{
+
+	display: flex;
+	padding: 12px;
+	gap: 40px;
+	width: 900px;
+}
+
+
+
+.tech .container2 .item{
+
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+.tech h1{
+
+	color: purple;
+	font-size: 60px;
+}
+
+.tech .container h3{
+
+	font-size: 20px;
+}
+
+.tech .container2 h3{
+
+	font-size: 30px;
+	color: purple;
+}
+
+.jeff{
+
+	background: rgb(230,222,53);
+	background: linear-gradient(141deg, rgba(230,222,53,1) 0%, rgba(224,4,89,1) 51%, rgba(53,31,106,1) 100%);
+	height: 540px;
+	color: white;
+}
+
+.jeff .container{
+
+	height: 90%;
+	width: 40%;
+	margin-left: 735px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.jeff .container p{
+
+	letter-spacing: 1px;
+	font-size: 22px;
+	line-height: 35px;
+
+}
+
+.jeff .container h1{
+
+	font-size: 30px;
+}
+
+.jeff img{
+
+	margin-right: 660px;
+}
+.cars{
+
+	background: rgb(106,17,233);
+	background: linear-gradient(141deg, rgba(106,17,233,1) 0%, rgba(120,19,219,1) 50%, rgba(74,138,238,1) 100%);
+	height: 530px;
+	color: white;
+}
+
+.cars .item{
+
+	float: right;
+	margin-top: 60px;
+	margin-right: 390px;
+	width: 22%;
+}
+
+.cars h1{
+
+	font-size: 60px;
+}
+
+.cars p{
+
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.ai{
+
+	height: 820px;
+	padding-top: 120px;
+}
+
+.ai .container{
+
+	display: flex;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-evenly;
+	width: 58%;
+	margin: auto;
+
+}
+
+.ai .container2{
+
+	display: flex;
+	gap:  40px;
+}
+
+.ai .container2 .item{
+
+	width: 426px;
+	padding: 10px;
+}
+
+.ai p{
+
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.ai h2{
+
+	font-size: 30px;
+	color: purple;
+}
+
+.ai h1{
+
+	font-size: 60px;
+	color: purple;
+}
+
+.ai img{
+
+	height: 300px;
+	width: 466px;
+	object-fit: cover;
+}
+
+.end{
+	height: 650px;
+}
+
+.end .container{
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 30px;
+	height: 100%;
+	margin-bottom: ;
+}
+
+.end img{
+
+	width: 262px;
+	object-fit: cover;
+}
+
+.end p{
+
+	width: 260px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 33px;
+	color: white;
+	padding-top: 30px;
+}
+
+.end .background{
+	position: absolute;
+	z-index: -1;
+	margin-top: 110px;
+	height: 63%;
+	width: 100%;
+	background: rgb(230,222,53);
+	background: linear-gradient(141deg, rgba(230,222,53,1) 0%, rgba(224,4,89,1) 51%, rgba(53,31,106,1) 100%);
+}
+
+.media{
+
+	background: hotpink;
+	height: 265px;
+}
+
+.media p{
+
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	width: 520px;
+	padding-top: 73px;
+	margin: auto;
+	line-height: 25px;
+	vertical-align: middle;
+}
+
+
+.media .container{
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 10px;
+}
+
+.media .item{
+
+	width: 21px;
+	height: 21px;
+	object-fit: contain;
+	align-items: center;
+	justify-content: center;
+
+}
